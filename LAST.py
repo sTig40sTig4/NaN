@@ -6,7 +6,7 @@ try:
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 Prsnl1.py')
+    os.system('python2 LAST.py')
 
 os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
